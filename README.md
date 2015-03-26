@@ -20,11 +20,11 @@ Install manually, or from bower:
 $ bower install ng-cordova-settings
 ```
 
-Include *filelogger.min.js* and ng-cordova.js or *ng-cordova.min.js* in your index.html file before cordova.js and after your AngularJS / Ionic file (since ngCordova depends on AngularJS).
+Include *ng-cordova-settings.min.js* and ng-cordova.js or *ng-cordova.min.js* in your index.html file before cordova.js and after your AngularJS / Ionic file (since ngCordova depends on AngularJS).
 
 ```html
 <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
-<script src="lib/filelogger/dist/ng-cordova-settings.min.js"></script>
+<script src="lib/ng-cordova-settings/dist/ng-cordova-settings.min.js"></script>
 <script src="cordova.js"></script>
 ```
 
