@@ -14,10 +14,15 @@ When you run your application in browser with "ionic serve" the ng-cordova-setti
 
 ## Installation
 
-Install manually, or from bower:
+Add cordova plugin
 
 ```bash
 $ cordova plugin add org.apache.cordova.file
+```
+
+Install ng-cordova-settings manually, or from bower:
+
+```bash
 $ bower install ng-cordova-settings
 ```
 
