@@ -17,6 +17,7 @@ When you run your application in browser with "ionic serve" the ng-cordova-setti
 Install manually, or from bower:
 
 ```bash
+$ cordova plugin add org.apache.cordova.file
 $ bower install ng-cordova-settings
 ```
 
