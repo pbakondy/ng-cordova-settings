@@ -3,9 +3,9 @@ ng-cordova-settings
 
 Store and read settings permanently on local filesystem in Cordova/Ionic projects.
 
-When you run your application in device ng-cordova-settings writes in the local filesystem (with cordova-plugin-file) and the system logs (with console.log).
+When you run your application in device ng-cordova-settings uses the local filesystem (with cordova-plugin-file) and the system logs (with console.log).
 
-When you run your application in browser with "ionic serve" the ng-cordova-settings uses browsers localStorage and the browser console (with console.log).
+When you run your application in browser with <code>ionic serve</code> the ng-cordova-settings uses browsers localStorage and the browser console (with console.log).
 
 ## Dependencies
 
@@ -20,13 +20,13 @@ Add cordova plugin
 $ cordova plugin add cordova-plugin-file
 ```
 
-Install ng-cordova-settings manually, or from bower:
+Install ng-cordova-settings manually, or with ionic:
 
 ```bash
 $ ionic add ng-cordova-settings
 ```
 
-Include *ng-cordova-settings.min.js* and ng-cordova.js or *ng-cordova.min.js* in your index.html file before cordova.js and after your AngularJS / Ionic file (since ngCordova depends on AngularJS).
+Include *ng-cordova-settings.min.js* and  *ng-cordova.min.js* in your index.html file before cordova.js and after your AngularJS / Ionic file (since ngCordova depends on AngularJS).
 
 ```html
 <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
@@ -34,7 +34,7 @@ Include *ng-cordova-settings.min.js* and ng-cordova.js or *ng-cordova.min.js* in
 <script src="cordova.js"></script>
 ```
 
-Comment: you don't have to use the complete ngCordova package. I suggest to create a [Custom Build](http://ngcordova.com/build/) with file module.
+Note: you don't have to use the complete ngCordova package. I suggest to create a [Custom Build](http://ngcordova.com/build/) with file module.
 
 
 ## Usage
